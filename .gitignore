@@ -1,0 +1,15 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+deepseekpython/
+model_cache/
+# Docker
+*.log
+chatgptopenapi.py
+config.bat
+node_modules

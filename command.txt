@@ -1,0 +1,56 @@
+ollama pull llama3
+
+
+# Basic syntax
+ollama pull <model-name>
+
+# Example: Download Llama3
+ollama pull llama3
+
+# Example: Download Mistral
+ollama pull mistral
+
+# Example: Download DeepSeek Coder
+ollama pull deepseek-coder
+
+
+
+pip install virtualenv
+python -m venv deepseekpython
+pip install -r requirements.txt
+deepseekpython\Scripts\activate
+streamlit run deepseekfilemanger.py
+
+
+set HF_HUB_DISABLE_PROGRESS_BARS=1
+streamlit run deepseek_local_analyzer.py
+
+
+set HF_HUB_DISABLE_PROGRESS_BARS=1
+set TOKENIZERS_PARALLELISM="false"
+streamlit run deepseek_code_analyzer.py
+
+ollama run deepseek-coder:1.3b
+
+
+
+
+
+# Run in PowerShell as Admin
+wsl --install
+
+# In Ubuntu terminal
+curl -fsSL https://ollama.com/install.sh | sh
+
+
+sudo service ollama start
+
+
+
+
+
+
+
+
+
+
